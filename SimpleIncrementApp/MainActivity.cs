@@ -22,9 +22,11 @@ namespace SimpleIncrementApp
 
             txtNumber = FindViewById<TextView>(Resource.Id.txtNumber);
 
+            //Increment action
             FindViewById<Button>(Resource.Id.btnIncrement).Click += (o, e) =>
             txtNumber.Text = (++number).ToString();
 
+            //Decrement action
             FindViewById<Button>(Resource.Id.btnDecrement).Click += (o, e) =>
             txtNumber.Text = (--number).ToString();
         }

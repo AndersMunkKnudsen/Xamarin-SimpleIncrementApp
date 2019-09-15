@@ -10,7 +10,7 @@
     <TextView
         android:text="0"
         android:textColor="#ffff"
-        android:textSize="150sp"
+        android:textSize="175sp"
         android:gravity="center"
         android:layout_width="385.0dp"
         android:layout_height="wrap_content"
